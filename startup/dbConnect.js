@@ -2,10 +2,11 @@ const mongoose = require("mongoose");
 // const Fawn = require("fawn");
 // const config = require("config");
 
-const dbName = "mongodb://localhost:27017/blood_bank";
+const connectionString =
+  "mongodb+srv://shobhanbiswas11:nokia@123@that-cluster-0-br6ue.mongodb.net/test?retryWrites=true&w=majority";
 
 module.exports = function() {
-  mongoose.connect(dbName, {
+  mongoose.connect(connectionString, {
     useNewUrlParser: true,
     useUnifiedTopology: true
   });
