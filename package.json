@@ -1,0 +1,18 @@
+{
+  "name": "blood-bank-back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shobhan Biswas",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/joi": "^17.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.2"
+  }
+}
