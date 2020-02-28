@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 // const config = require("config");
 
 const connectionString =
-  "mongodb+srv://shobhanbiswas11:nokia@123@that-cluster-0-br6ue.mongodb.net/test?retryWrites=true&w=majority";
+  "mongodb+srv://shobhanbiswas11:nokia@123@that-cluster-0-br6ue.mongodb.net/mindspark?retryWrites=true&w=majority";
 
 module.exports = function() {
   mongoose.connect(connectionString, {
